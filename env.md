@@ -1,3 +1,12 @@
+# git init  
+```  
+git config --global user.namef1cheng'
+git config --global user.mail 'cheng.fei1026@gmail.com'
+ssh-keygen -t rsa -C 'cheng.fei1026@gmail.com'
+cd ~/.ssh
+cat id_rsa.pub-->copy contents to "Personal settings"->"SSH keys"
+```  
+
 # env  
 ```  
 OS: ubuntu 16.04
