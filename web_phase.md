@@ -15,7 +15,7 @@ sudo apt-get install python-pip
 sudo pip install flask
 ```  
 
-# print  
+# print(http://127.0.0.1:5000/)  
 see app.py [here](app.py)
 
 # html 
