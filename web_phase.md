@@ -17,3 +17,9 @@ sudo pip install flask
 
 # print  
 see app.py [here](app.py)
+
+# html 
+
+# login
+
+# buyin 
