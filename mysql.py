@@ -2,14 +2,14 @@
 # coding:utf-8
 
 import MySQLdb, sys
-# root/charging
 
 try:
     db = MySQLdb.connect(host='localhost',
                          user='test',
                          passwd='test',
                          db='testdb')
-#    with db:---affect in python3?
+# with db:---affect in python3?
+# root/charging
 
     cur = db.cursor()
     create_tbl = "drop table if exists Orders;\
