@@ -26,3 +26,9 @@ test by http://127.0.0.1:5000/
 # login
 
 # buyin 
+
+# python mysql
+```  
+pip install MySQL-python
+```  
+
