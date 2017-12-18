@@ -28,14 +28,21 @@ test by http://127.0.0.1:5000/
 # html 
 see app_html.py [here](app_html.py)  
 
-# file transfer  
+# python mysql
+see mysql.py[here](mysql.py)  
+```  
+pip install MySQL-python
+```  
+
+# web file transfer  
+see app_sftp.py[here](sftp/app_sftp.py)  
+```  
+cd sftp;  
+python app_sftp.py
+```  
 
 # login
 
 # buyin 
 
-# python mysql
-```  
-pip install MySQL-python
-```  
 
