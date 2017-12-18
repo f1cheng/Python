@@ -9,7 +9,7 @@ try:
                          passwd='test',
                          db='testdb')
 # with db:---affect in python3?
-# root/charging
+# root/charging xxxxxxxxxxxxxx
 
     cur = db.cursor()
     create_tbl = "drop table if exists Orders;\
