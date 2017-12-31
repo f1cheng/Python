@@ -29,13 +29,13 @@ test by http://127.0.0.1:5000/
 see app_html.py [here](app_html.py)  
 
 # python mysql
-see mysql.py[here](mysql.py)  
+see mysql.py [here](mysql.py)  
 ```  
 pip install MySQL-python
 ```  
 
 # web file transfer  
-see app_sftp.py[here](sftp/app_sftp.py)  
+see app_sftp.py [here](sftp/app_sftp.py)  
 ```  
 cd sftp;  
 python app_sftp.py
