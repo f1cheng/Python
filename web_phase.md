@@ -13,6 +13,7 @@ git clone git@github.com:f1cheng/Python.git
 OS: ubuntu 16.04
 sudo apt-get install python-pip
 sudo pip install flask
+sudo apt-get install python-paramkio  
 ```  
 
 # print  
