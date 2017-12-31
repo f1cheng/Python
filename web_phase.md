@@ -14,6 +14,7 @@ OS: ubuntu 16.04
 sudo apt-get install python-pip
 sudo pip install flask
 sudo apt-get install python-paramkio  
+sudo apt-get install openssh-server openssh-client
 ```  
 
 # print  
