@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+
+<form action="{{url_for('transfer')}}" method="POST">
+
+<div class="form-row">
+<label for="Host1" class="col-10">Host</label>
+<input type="text" class="col-7" name="host">
+
+<label for="Port1" class="col-2">Port</label>
+<input type="text" class="col-7" name="port">
+
+<label for="Username1" class="col-2">Username</label>
+<input type="text" name="username" class="col-7">
+
+<label for="Pwd1" class="col-2">Pwd</label>
+<input type="text" name="pwd" class="col-7">
+</div>
+
+<div class="form-row">
+<label for="Localpath1" class="col-10">Localpath</label>
+<input type="text" name="localpath" class="col-7">
+
+<label for="Remotepath1" class="col-5">Remotepath</label>
+<input type="text" name="remotepath" class="col-7">
+</div>
+
+<div class="form-row">
+<button type="submit">Download</button>
+</div>
+
+</form>
+
+host: {{host}}
+port: {{port}}
+
+localpath: {{localpath}}
+remotepath: {{remotepath}}
+
+
+
+</html>

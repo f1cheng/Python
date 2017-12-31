@@ -28,6 +28,8 @@ test by http://127.0.0.1:5000/
 # html 
 see app_html.py [here](app_html.py)  
 
+# file transfer  
+
 # login
 
 # buyin 
