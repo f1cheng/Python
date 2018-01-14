@@ -21,6 +21,7 @@ class MySFTP(object):
         channel = paramiko.SFTPClient.from_transport(self.transport)
         channel.get(remote_file, local_file)
         channel.close()
+        return 1
     
     def __del__(self):
         self.transport.close()    
