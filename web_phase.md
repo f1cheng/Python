@@ -36,12 +36,20 @@ see mysql.py [here](mysql.py)
 pip install MySQL-python
 ```  
 
-# web file transfer  
+# web file transfer    
 see app_sftp.py [here](sftp/app_sftp.py)  
 ```  
 cd sftp;  
 python app_sftp.py
 ```  
+
+# bootstrap web file transfer   
+see ftp_render.py [here](sftp/ftp_render.py)   
+```  
+cd sftp; 
+python ftp_render.py
+```  
+
 
 # login
 
