@@ -41,8 +41,11 @@ def file_transfer():
         remotepath = ftpForm['remotePath'].data
          
         if request.form['btn'] == 'download':
-            myFtp = MySFTP(host, int(port), username, pwd)
-            result = myFtp.download_file(remotepath, localpath)
+            try:
+                myFtp = MySFTP(host, int(port), username, pwd)
+                result = myFtp.download_file(remotepath, localpath)
+            except Exception as e:
+                result = e
         else:
             print("not implemented for upload")
  
