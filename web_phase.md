@@ -18,7 +18,8 @@ sudo apt-get remove python-paramiko
 sudo pip install paramiko
 sudo apt-get install openssh-server openssh-client
 sudo pip install Flask-WTF
-sudo pip install flask-bootstrap  
+sudo pip install flask-bootstrap
+sudo pip install flask-socketio 
 ```  
 
 # print  
