@@ -60,4 +60,10 @@ python ftp_render.py
 ```
 https://github.com/anshengme/blog
 ```
+# python socket
+```  
+python socket send recv is based on string type,  
+so it needs struct.pack unpack to convert to or back str type.
+use example to demo it.
+```
 
