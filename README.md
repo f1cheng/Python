@@ -5,9 +5,9 @@
 pip install virtualenv
 mkdir my1
 virtualenv venv
----entry the venv
+---enter the py venv
 . venv/bin/activate
----exit the venv
+---exit the py venv
 deactivate
 ```
 
