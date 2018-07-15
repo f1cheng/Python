@@ -1,4 +1,17 @@
 # Python
+
+## virtualenv for Python dev
+```
+pip install virtualenv
+mkdir my1
+virtualenv venv
+---entry the venv
+. venv/bin/activate
+---exit the venv
+deactivate
+```
+
+
 ## PyCharm setting
 ```
 Menu: PyCharm->Preferences->Project:-> Project interpreter
